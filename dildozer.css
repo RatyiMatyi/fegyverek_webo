@@ -1,0 +1,78 @@
+body{
+    background-color: dimgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header{
+    font-size: 5em;
+    font-family: 'Britannic', 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 5px;
+    background-image: url(istockphoto-494930238-612x612.jpg);
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 5px black;
+    margin-top: 0px;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+nav{
+    background-color: rgb(13, 13, 156) ;
+    padding: 20px;
+    
+}
+
+nav a:link a:visited{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+
+nav a:hover{
+    color: red;
+    background-color: rgb(13, 13, 156);
+}
+
+article{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    width: 50%;
+}
+
+aside{
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 45%;
+}
+
+section::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+img{
+    width: 100%;
+}
+
+.kep_szoveg{
+    background-color:grey;
+    color: azure;
+    padding: 3px;
+    border-radius: 5px;
+
+}
