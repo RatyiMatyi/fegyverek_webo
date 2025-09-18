@@ -15,6 +15,7 @@ header{
     margin-top: 0px;
     background-size: cover;
     background-position: center;
+    
 
 
 }
@@ -44,10 +45,11 @@ nav a:hover{
 
 article{
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     float: left;
     width: 50%;
+    margin-bottom: 10px;
 }
 
 aside{
@@ -74,5 +76,11 @@ img{
     color: azure;
     padding: 3px;
     border-radius: 5px;
+    width: 70%;
+    
 
+}
+
+.kep{
+    width: 70%;
 }
